@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-j!h%m-!6%18ci8et1db-we=vmakz&=gr@ofw_06h+$k#04%0k#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = getenv("IS_DEVELOPMENT", True)
+DEBUG = getenv(True)
 
 ALLOWED_HOSTS = [
     getenv("APP_HOST", "127.0.0.1")
@@ -145,12 +145,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-# AWS_STORAGES_BUCKET_NAME = "blog-site-course"
-# AWS_S3_REGION_NAME = "ap-northeast-1"
-# AWS_ACCESS_KEY_ID = "AKIAYJTV4CIXTP6JPTOC"
-# AWS_SECRET_ACCESS_KEY = "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"
-
-# AWS_CUSTOM_DOMAIN = f"{AWS_STORAGES_BUCKET_NAME}.s3.amazonaws.com"
 
 # STATICFILES_FOLDER = "static"
 # MEDIAFILES_FOLDER = "media"

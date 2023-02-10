@@ -3,6 +3,7 @@ boto3==1.26.37
 botocore==1.29.37
 Django==4.1.4
 django-storages==1.13.2
+gunicorn==20.1.0
 jmespath==1.0.1
 Pillow==9.3.0
 psycopg2-binary==2.9.5
